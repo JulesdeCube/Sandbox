@@ -36,6 +36,8 @@ to run the server in debug/developement mode
 
 To use it in production see the [django deploy help page](https://docs.djangoproject.com/en/3.1/howto/deployment/).
 
+## 📃 Licence
+Licensed under the [GNU general public license](./LICENCE.md).
 
 ## 👪 Contributor
 [![Contributor](https://contributors-img.web.app/image?repo=JulesdeCube/Sandbox)](https://github.com/JulesdeCube/Sandbox/graphs/contributors)
