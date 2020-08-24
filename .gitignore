@@ -1,0 +1,10 @@
+# editor
+.vscode/
+
+# python
+__pycache__/
+
+# enviroment
+.venv/
+database/
+config/
