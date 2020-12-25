@@ -62,6 +62,8 @@ if [ ! -f "config/allowedHost.conf" ] ; then
   echo
 fi
 
+./scripts/manage.py migrate
+
 
 echo
 echo "Install finish"
