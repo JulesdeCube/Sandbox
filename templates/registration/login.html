@@ -3,10 +3,18 @@
 {% block title %}Login{% endblock %}
 
 {% block content %}
-<h2>Login</h2>
-<form method="post">
+
+<form class="text-center" method="post">
   {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Login</button>
+  <h1 class="mb-4">Login</h1>
+  <label for="inputEmail" class="visually-hidden">Username</label>
+  <input type="text" id="id_username" class="form-control" name="username" placeholder="Username" autocapitalize="none"
+    autocomplete="username" maxlength="150" autocapitalize="none" required autofocus>
+  <label for="inputPassword" class="visually-hidden">Password</label>
+  <input type="password" id="password_id" class="form-control mt-1" name="password" placeholder="Password"
+    autocomplete="current-password" required>
+
+  <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Sign in</button>
 </form>
+
 {% endblock %}

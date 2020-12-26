@@ -1,8 +1,35 @@
-{% extends  'base.html' %}
+{% extends 'base.html' %}
 
 {% block title %}home{% endblock %}
 
 {% block content %}
-<h1>Sanbox</h1>
-<p>sandbox is a online programing web cours</p>
+<h1>Sandbox</h1>
+<p class="lead">Sandbox is an online <strong>programing learning</strong> site. It propose <strong>small code
+    chalenge</strong> in form algorithmie probleme solving.</p>
+<p class="lead">
+  It support a <strong>large diversity of languages</strong>:
+  <code>Ada</code>,
+  <code>C</code>,
+  <code>C#</code>,
+  <code>C++</code>,
+  <code>D</code>,
+  <code>Go</code>,
+  <code>Haskell</code>,
+  <code>Java</code>,
+  <code>Javascript</code>,
+  <code>Lua</code>,
+  <code>OCaml</code>,
+  <code>Pascal</code>,
+  <code>Perl</code>,
+  <code>PHP</code>,
+  <code>Prolog</code>,
+  <code>Python</code>,
+  <code>Ruby</code>,
+  <code>Rust</code>,
+  <code>Scheme</code>.
+</p>
+
+<p class="lead">
+  <a href="{% url 'exercices_index' %}" class="btn btn-lg btn-primary">Get Started</a>
+</p>
 {% endblock %}
